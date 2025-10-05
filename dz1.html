@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="descript of my site">
+        <link rel="icon" type="image/x-icon" href="1.png">
+        <title>HTML</title>
+    </head>
+    <body>
+        <header id="about">
+            <h1>Nakonechni Anna Alexandrovna</h1>
+            <div class="photo">
+                <img src="photo.png" alt="Photo" width="400" height="400">
+            </div>
+            <h2>
+                <p>Post</p>
+                <ul>
+                    <li>AI-scientist</li>
+                    <li>Python developer</li>
+                    <li>ML</li>
+                </ul>
+            </h2>
+        </header>
+        <main>
+            <section>
+            <h2>Work experience</h2>
+            <table id="experience">
+                <thead>
+                    <tr>
+                        <th>Period</th>
+                        <th>Company</th>
+                        <th>Post</th>
+                        <th>Duties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024 - now</td>
+                        <td>Sber</td>
+                        <td>Data scientist/ML</td>
+                        <td>
+                            <ul>
+                                <li>creating and training ML models for metric prediction tasks for monitoring systems</li>
+                                <li>automation of data selection and data preparation tasks</li>
+                                <li>conducting data analytics for further use in metric prediction tasks</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2022-2024</td>
+                        <td>Sber</td>
+                        <td>NLP engeneer</td>
+                        <td>
+                            <ul>
+                                <li>clean up data on narrow domains (NLP parsing)</li>
+                                <li>generate synthetic data</li>
+                                <li>dealing with tokenization</li>
+                                <li>clusterize data</li>
+                                <li>writing deduplication in Rust</li>
+                                <li>optimize MapReduce → Spark, thousands of cores</li>
+                                <li>FT and RL → DPO, DRPO</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+             <h2>Education</h2>
+        <ul>
+            <li>Tomsk Tractor Construction College, 2009-2012</li>
+            <li>Stanford University univercity, 2012-2016</li>
+            <li>California Institute of Technology (Caltech), yandex (grad 2018)</li>
+            <li>RTU MIREA 2022-now days</li>
+        </ul>
+        </section>
+        
+        <section>
+        <h2 id="skills">Key skils</h2>
+        <ul>
+            <li>ML frameworks for Python (Tensorflow, Keras, PyTorch)</li>
+            <li>3+ years of Python development experience</li>
+            <li>experience with container management platforms (Docker, Kubernetes)</li>
+            <li>SQL (mostly pgsql)</li>
+            <li>Java (Spring, SpringBoot)</li>
+            <li>Rust</li>
+            <li>Apache Airflow</li>
+            <li>CI/CD</li>
+        </ul>
+        </section>
+        <section>
+        <h2>Another skils</h2>
+        <ul>
+            <li>knowledge of stream processors (Kafka)</li>
+            <li>skills in working with generative AI models</li>
+            <li>experience in creating AI agents and using them in work</li>
+            <li>creating and using AI agents, tool-based AI for analysis, generation, and automation</li>
+        </ul>   
+        </section>
+        </main>
+        <aside class="sidebar">
+        <h3 id="contacts">Contact information</h3>
+        <ul>
+            <li>Phone: +7 (999) 123-33-67</li>
+            <li>Email: shrnvaa@email.com</li>
+            <li><a href="https://github.com/annaaln" target="_blank">GitHub</a></li>
+            <li>City: Spb</li>
+        </ul>
+        
+       
+        </aside>
+        <footer>
+            <p>A project from the Telegram company where I participated</p>
+            <video width="640" height="360" controls>
+                <source src="5.MP4" type="video/MP4">
+                <source src="video.webm" type="video/webm">
+                Your browser does not support video playback.
+            </video>
+            <pre></pre>
+            <p>Interested? For cooperation</p>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <pre></pre>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <pre></pre>
+                <textarea name="message" placeholder="Message"></textarea>
+                <pre></pre>
+                <input type="submit" value="Send">
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="#about">About myself</a></li>
+                    <li><a href="#experience">Work experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
